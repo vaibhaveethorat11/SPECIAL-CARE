@@ -45,7 +45,7 @@ ul{
     transition: 0.4s;
 }
 .list-items a:hover{
-    color: rgb(245, 104, 214);
+    color: rgb(88, 183, 228);
 }
 .hamburger{
     height:28px;
