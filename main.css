@@ -46,11 +46,11 @@ ul{
     padding: 12px;
 }
 .icon-bar{
-    width: 90px;
+    
     color: black;
 }
 .icon-bar a{
-    padding: 12px;
+    justify-content: space-between;
     color: black;
     font-size: 0.9em;
 }
@@ -108,16 +108,29 @@ background-color: #ececec;
 .banner h1{
     font-size: 2em;
 }
-
+.container span{
+    color: #3711f7;
+}
 .container{
     font-family: sans-serif;
     font-size: 25px;
     padding: none;
     margin: 50px;
 }
+.container .box{
+    position: relative;
+    width: calc(400px - 25px);
+    height: calc(300px- 25px);
+    margin: 25px;
+    float: left;
+    box-sizing: border-box;
+    background: #96dbfc;
+    border-radius: 5px;
+}
 .container h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1em;
+    color: rgba(14, 13, 13, 0.8);
 }
 .slideshow-container {
     max-width: 1500px;
