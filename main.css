@@ -78,7 +78,7 @@ background-color: #ececec;
     height: 170px;
     width: 600px;
     background: rgba(255, 255, 255, 0.7);
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -96,8 +96,18 @@ background-color: #ececec;
     font-size: 2em;
 }
 
+.container{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: none;
+    margin: 50px;
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 1500px;
     position: relative;
     margin: auto;
 }
