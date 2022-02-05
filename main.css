@@ -64,10 +64,8 @@ ul{
 }
 
 body{
-background: url("images/special\ care.png");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+background-color: #ececec;
+
 }
 .section1{
     height: 90%;
