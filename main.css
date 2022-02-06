@@ -127,6 +127,14 @@ background-color: #ececec;
     background: #96dbfc;
     border-radius: 5px;
 }
+.container .box img{
+    justify-content: center;
+    margin: 25px;
+}
+.container .box:hover{
+    background-color: #bbb;
+
+}
 .container h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
