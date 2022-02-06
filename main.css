@@ -119,17 +119,19 @@ background-color: #ececec;
 }
 .container .box{
     position: relative;
-    width: calc(400px - 25px);
+    width: calc(400px - 10px);
     height: calc(300px- 25px);
-    margin: 25px;
+    margin: 40px;
     float: left;
+    border-style: double;
+    border-color: #3711f7;
     box-sizing: border-box;
-    background: #96dbfc;
+    background: #eff2f3;
     border-radius: 5px;
 }
 .container .box img{
-    justify-content: center;
-    margin: 25px;
+    justify-content: space-around;
+    margin: 15px;
 }
 .container .box:hover{
     background-color: #bbb;
