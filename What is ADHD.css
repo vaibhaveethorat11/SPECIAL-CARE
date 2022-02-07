@@ -78,5 +78,28 @@ ul{
 }
 
 body{
-background-color: #3040F4;
+    background:url("images/world-autism-awareness-day-background-260nw-1914808471.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    justify-content: center;
+    word-wrap: normal;
+    margin: 300px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    padding: 180px;
+    position: absolute;
+    box-shadow: 0px 0px 5px 2px black;
+}
+.container .content{
+    font-size: 30px;
+}
+.container .content h2{
+    font-size: 30px;
+}
+.container .content span{
+    font-size: 30px;
 }
