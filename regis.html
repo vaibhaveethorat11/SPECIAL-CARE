@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Register Form Start</title>
+    <link rel="stylesheet" href="regis.css" />
+  </head>
+
+  <body>
+    <form id="signup-form" action="/register" method="post">
+      <!-- form header -->
+      <div id="form-header">
+        <h1>Registration</h1>
+      </div>
+      <!-- form body -->
+      <div id="form-body">
+        <!-- Firstname and Lastname -->
+        <div id="horizontal-group">
+          <div id="form-group left">
+            <label for="firstname" id="label-title">First Name *</label>
+            <input
+              type="text"
+              id="firstname"
+              name="form-input"
+              placeholder="Enter your first name"
+              required="required"
+            />
+          </div>
+          <br /><br />
+          <div id="form-group center">
+            <label for="middlename" id="label-title">Middle Name*</label>
+            <input
+              type="text"
+              id="middlename"
+              name="form-input"
+              placeholder="Enter your middle name"
+            />
+          </div>
+          <br /><br />
+          <div id="form-group right">
+            <label for="lastname" id="label-title">Last Name*</label>
+            <input
+              type="text"
+              id="lastname"
+              name="form-input"
+              placeholder="Enter your last name"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!--Date of Birth-->
+      <div id="dcontent">
+        <label for="dob" id="label-title">Date Of Birth*</label>
+        <input type="date" id="dob" name="form-input" placeholder="Enter your
+        birthdate"
+      </div>
+      <br /><br />
+      <!-- Email -->
+      <div id="form-group">
+        <label for="email" id="label-title">Email*</label>
+        <input
+          type="email"
+          id="email"
+          name="form-input"
+          placeholder="Enter your email"
+          required="required"
+        />
+      </div>
+
+      <!-- Passwrod and confirm password -->
+      <div id="horizontal-group">
+        <div id="form-group left">
+          <label for="password" class="label-title">Password *</label>
+          <input
+            type="password"
+            id="password"
+            class="form-input"
+            placeholder="Enter your password"
+            required="required"
+          />
+        </div>
+        <br /><br />
+        <div id="form-group right">
+          <label for="confirm-password" class="label-title"
+            >Confirm Password *</label
+          >
+          <input
+            type="password"
+            class="form-input"
+            id="confirm-password"
+            placeholder="Enter your password again"
+            required="required"
+          />
+        </div>
+      </div>
+      <!-- Gender-->
+      <div id="horizontal-group">
+        <div id="form-group left">
+          <label id="label-title">Gender:</label>
+          <div id="input-group">
+            <label for="male">
+              <input type="radio" name="gender" value="male" id="male" />
+              Male</label
+            >
+            <label for="female">
+              <input type="radio" name="gender" value="female" id="female" />
+              Female</label
+            >
+            <label for="transgender">
+              <input
+                type="radio"
+                name="gender"
+                value="transgender"
+                id="transgender"
+              />Transgender</label
+            >
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <!--Address-->
+      <div id="Horizontal-group">
+        <label id="address-title">Address*</label>
+        <div id="form-group f1">
+          <label for="room">Flat No./Room No*</label>
+          <input
+            type="text"
+            name="address"
+            id="room"
+            placeholder="Enter your flat/room no."
+          />
+        </div>
+        <br /><br />
+        <div id="form-group f2">
+          <label for="land">Landmark*</label>
+          <input
+            type="text"
+            name="address"
+            id="land"
+            placeholder="Enter your landmark"
+          />
+        </div>
+        <br /><br />
+        <div id="form-group f3">
+          <label for="area">Area*</label>
+          <input
+            type="text"
+            name="address"
+            id="area"
+            placeholder="Enter your area"
+          />
+        </div>
+        <br /><br />
+        <div class="form-group f4">
+          <label>City*</label>
+          <select class="form-control" place holder="Select Your City">
+            <option>Select Your City</option>
+            <option>Ahmednagar</option>
+            <option>Akola</option>
+            <option>Amravati</option>
+            <option>Aurangabad</option>
+            <option>Beed</option>
+            <option>Chandrapur</option>
+            <option>Dhule</option>
+            <option>Gondia</option>
+            <option>Jalgaon</option>
+            <option>Jalna</option>
+            <option>Kolhapur</option>
+            <option>Latur</option>
+            <option>Mumbai</option>
+            <option>Nagapur</option>
+            <option>Nandurbar</option>
+            <option>Nashik</option>
+            <option>Osmanbad</option>
+            <option>Parbhani</option>
+            <option>Pune</option>
+            <option>Raigad</option>
+            <option>Sangli</option>
+            <option>Satar</option>
+            <option>Solapur</option>
+            <option>Sangli</option>
+            <option>Thane</option>
+            <option>Wardha</option>
+            <option>Yavatmal</option>
+          </select>
+        </div>
+        <!-- form footer -->
+        <div id="form-footer">
+          <span>* required</span>
+        </div>
+        <br /><br />
+        <button type="submit" id="btn">Create</button>
+      </div>
+    </form>
+  </body>
+</html>
