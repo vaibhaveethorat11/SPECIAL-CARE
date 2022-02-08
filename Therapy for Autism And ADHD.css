@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #ececec;
+}
+.logo{
+    padding-left: 2.5em;
+}
+.logo-text{
+    font-size: 2em;
+}
+.menubar{
+    width: 45%;
+    margin-left: 8.5em; 
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.list-items a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    transition: 0.4s;
+    padding: 12px;
+}
+.icon-bar{
+    
+    color: black;
+}
+.icon-bar a{
+    justify-content: space-between;
+    color: black;
+    font-size: 0.9em;
+}
+.icon-bar a:hover{
+    color:rgb(88, 183, 228) ;
+}
+.list-items a:hover{
+    color: rgb(88, 183, 228);
+}
+.hamburger{
+    height:28px;
+    width: 32px;
+    display: none;
+}
+.bar{
+    display: block;
+    background: black;
+    height: 3px;
+    margin: 5px auto;
+    width: 25px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: #ececec;
+}
+
+body{
+background: url("images/world-autism-awareness-day-background-260nw-1914808471.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+.container{
+    justify-content: center;
+    word-wrap: normal;
+    margin: 300px;
+    display: block;
+    justify-items: center;
+    text-align: center;
+    padding: 180px;
+    position: absolute;
+    box-shadow: 0px 0px 5px 2px black;
+}
+.container .content{
+    font-size: 30px;
+}
+.container .content h1{
+    font-size: 40px;
+}
+.container .content h2{
+    font-size: 30px;
+}
+.container .content span{
+    font-size: 30px;
+}
+.container .content b u{
+    font-size: 30px;
+}
