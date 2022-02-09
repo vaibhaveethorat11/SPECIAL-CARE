@@ -76,7 +76,7 @@ ul{
     background-color: #ececec;
 }
 #Background{
-    background-image: url(Images/Background.jpg);
+    background-image: url(Background.jpg);
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
